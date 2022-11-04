@@ -444,7 +444,7 @@ describe('Function "bestYearAvg"', () => {
 
   it('should return the correct answer to a multiple elements array', () => {
     expect(bestYearAvg(movies)).toEqual(
-      'The best year was 1972 with an average score of 9.2'
+      'The best year was 1994 with an average score of 9.3'
     );
   });
 
@@ -457,7 +457,7 @@ describe('Function "bestYearAvg"', () => {
     ];
 
     expect(bestYearAvg(newMoviesArr)).toEqual(
-      'The best year was 1978 with an average score of 8.5'
+      'The best year was 1978 with an average score of 10'
     );
   });
 });
